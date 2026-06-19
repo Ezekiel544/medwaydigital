@@ -19,10 +19,10 @@ export default function Header() {
 
               {/* Logo */}
               <a href="#" className="flex items-center gap-2 flex-shrink-0 no-underline">
-                <div className="w-7 h-7 bg-blue-600 rounded-md flex items-center justify-center text-white font-bold text-sm italic">
+                {/* <div className="w-7 h-7 bg-blue-600 rounded-md flex items-center justify-center text-white font-bold text-sm italic">
                   i
-                </div>
-                <span className="text-gray-900 font-bold text-[15px]">infotuk</span>
+                </div> */}
+                <span className="text-gray-900 font-bold text-[15px]">Medway</span>
               </a>
 
               {/* Desktop Nav Links */}

@@ -19,7 +19,7 @@ import {
   Clock,
   Send,
 } from 'lucide-react';
-
+import { FaXTwitter } from 'react-icons/fa6';
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -122,11 +122,12 @@ export default function Contact() {
       </svg>
     </a>
     {/* Twitter / X */}
-    <a href="#" className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-blue-600">
-      <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M4 4l16 16M4 20L20 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" fill="none"/>
-      </svg>
-    </a>
+     <a href="#"
+                aria-label="Twitter"
+               className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-blue-600"
+              >
+                <FaXTwitter size={14} />
+              </a>
     {/* Instagram */}
     <a href="#" className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-blue-600">
       <svg width="15" height="15" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
