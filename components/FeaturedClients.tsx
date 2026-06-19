@@ -186,10 +186,10 @@ export default function AboutSection() {
               ))}
             </div>
 
-            <div className="w-px h-[70px] bg-gray-200 flex-shrink-0" />
+            {/* <div className="w-px h-[70px] bg-gray-200 flex-shrink-0" /> */}
 
             <div className="flex items-center gap-3 flex-shrink-0">
-              <div className="w-[42px] h-[42px] rounded-full bg-blue-50 flex items-center justify-center flex-shrink-0">
+              {/* <div className="w-[42px] h-[42px] rounded-full bg-blue-50 flex items-center justify-center flex-shrink-0">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M12 2L4 5v6c0 5.25 3.5 10.15 8 11.35C16.5 21.15 20 16.25 20 11V5l-8-3z"
@@ -206,13 +206,13 @@ export default function AboutSection() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <div className="text-[24px] font-extrabold text-slate-900 leading-none mb-1">
                   {count.toLocaleString()}+
                 </div>
                 <div className="text-[11.5px] text-gray-500">Satisfied Clients</div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -221,7 +221,7 @@ export default function AboutSection() {
               Contact Us <ArrowRight size={15} strokeWidth={2.5} />
             </button>
 
-            <div className="flex items-center gap-3">
+            {/* <div className="flex items-center gap-3">
               <div className="w-11 h-11 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0">
                 <Phone size={16} color="white" fill="white" />
               </div>
@@ -229,7 +229,7 @@ export default function AboutSection() {
                 <p className="text-[11px] text-gray-400">Call Us Now</p>
                 <p className="text-[14px] font-bold text-slate-900">+328-385-0132</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
         </div>
